@@ -86,7 +86,7 @@
           name: "Люба",
           secondName: "Димура",
           gender: "female",
-          birth: 1955,
+          birth: 1958,
           photo: "images/Luba.jpg",
           familyId: "A",
           personalInfo: {
@@ -134,7 +134,7 @@
               name: "Микола", 
               secondName: "Димура", 
               gender: "male", 
-              birth: 1992, 
+              birth: 1991, 
               photo: "images/Nikola.jpg",
               familyId: "A", 
               personalInfo: {
@@ -229,7 +229,7 @@
               name: "Вікторія",
               secondName: "Лишенко",
               gender: "female",
-              birth: 1995,
+              birth: 1991,
               photo: "images/Vika.jpg",
               familyId: "B", 
               personalInfo: {
@@ -247,7 +247,7 @@
                   hobbies: ["автомобілі"]}
               },
               children: [
-                { id:23, name: "Іван", secondName: "Лишенко", gender: "male", birth: 2017, photo: "images/Ivan.jpg" }
+                { id:23, name: "Іван", secondName: "Лишенко", gender: "male", birth: 2015, photo: "images/Ivan.jpg" }
               ]
             }
           ]
