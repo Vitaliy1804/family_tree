@@ -1,7 +1,12 @@
  body { 
   font-family: sans-serif;
   font-size: 10px; 
+  margin: 0;
+  height: 100vh;
+  background: url('images/tree.jpg') center/cover no-repeat;
+
 }
+
     #tree {
       display: flex;
       flex-direction: column-reverse;
