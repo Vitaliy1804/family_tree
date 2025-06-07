@@ -18,7 +18,7 @@
       photo: "images/prababa.jpg",
       personalInfo: {
       bio: "Микола працював механіком...",
-      hobbies: ["рибалка", "ремонт техніки"]
+      
     },
   
   spouse: {
@@ -30,19 +30,19 @@
     photo: "images/praded.jpg",
     personalInfo: {
       bio: "Микола працював механіком...",
-      hobbies: ["рибалка", "ремонт техніки"]
+     
     }
   },
   
       id:3,
       name: "Горпина",
-      secondName: "Франко",
+      secondName: "Бердник",
       gender: "female",
       birth: 1912,
       photo: "images/Gorpuna.jpg",
       personalInfo: {
       bio: "Все життя пропрацювала в колгоспі, була не писемна...",
-      hobbies: ["огородництво"]
+      
     },
   
   spouse: {
@@ -50,11 +50,11 @@
     name: "Микола",
     secondName: "Бердник",
     gender: "male",
-    birth: 1912,
+    birth: 1912.1944,
     photo: "images/Berdnuk.jpg",
     personalInfo: {
       bio: "Микола працював механіком, був трактористом...",
-      hobbies: ["рибалка"]
+      
     }
   },
   children: [
@@ -66,7 +66,7 @@
       photo: "images/Li.jpg",
       personalInfo: {
       bio: "Лідія Миколаївна викладала біологію і хімію, була класним керівником...",
-      hobbies: ["домогосподарство"]
+      
     },
       spouse: {
         id:6,
@@ -77,7 +77,7 @@
         photo: "images/Antonenko.jpg",
         personalInfo: {
             bio: "Микола працював директором школи...",
-            hobbies: ["рибалка"]
+           
     }
       },
       children: [
@@ -91,7 +91,7 @@
           familyId: "A",
           personalInfo: {
             bio: "Працювала в куколівській школі...",
-            hobbies: ["домогосподарство"]
+           
     },
           id: 8,
           spouse: {
@@ -101,7 +101,7 @@
             photo: "images/Viktor.jpg",
             personalInfo: {
               bio: "Віктор працював електриком у колгоспі, потім став фермером...",
-              hobbies: ["ремонт техніки"]
+             
     }
 
           },
@@ -116,17 +116,17 @@
               familyId: "A",
               personalInfo: {
                 bio: "Яна народилася в селі Куколівка, працювала в Олександрії <br />спочатку в школі№1, потім в Індустріальному Технікумі, викладає математику...",
-                hobbies: ["рибалка", "ремонт техніки"]
+               
               }, 
       spouse: {
              id:10,
              name: "Олег",
              secondName: "Безверхий",
              birth: 1981,
-             photo: "https://i.pravatar.cc/60?u=4",
+             photo: "images/Oleg.jpg",
              personalInfo: {
                bio: "Зараз військовий...",
-                hobbies: ["рибалка", ""]}
+               }
              }
   },
              {
@@ -139,34 +139,44 @@
               familyId: "A", 
               personalInfo: {
                 bio: "Микола працює розробником...",
-                hobbies: ["ай-ті", "ремонт техніки"]
-              }
+                
+              },
+               spouse: {
+             id:25,
+             name: "Мар'яна",             
+             secondName: "Димура",
+             birth: 1996,
+             photo: "images/Marjana.jpg",
+             personalInfo: {
+               bio: "Зараз в Казахстаны...",
+                }
+             }
   }, 
           ]
         },
         {
           id:12,
-          name: "Вера",
+          name:"Вера",
           secondName: "Шеремет",
           gender: "female",
           birth: 1960,
-          photo: "images/Vera.jpg",
+          photo: "images/Verchik.jpg",
           familyId: "B", 
           personalInfo: {
               bio: "Працювала в дитсадку, переїхала в село, догляда Лідію Миколаївну...",
-              hobbies: ["вирощувати картоплі", "пасти кур"]
+             
     },
-    //       spouse: {
-    //         id:13,
-    //         name: "Володимир",
-    //         secondName: "Шеремет",
-    //         birth: 1965,
-    //         photo: "https://i.pravatar.cc/60?u=4",
-    //         personalInfo: {
-    //       bio: "",
-    //       hobbies: []
-    // }
-          // },
+          spouse: {
+            id:13,
+            name: "Володимир",
+            secondName: "Шеремет",
+            birth: 1960,
+            photo: "https://i.pravatar.cc/60?u=4",
+            personalInfo: {
+          bio: "",
+          hobbies: []
+    }
+          },
           children: [
             {
               id:14,
@@ -178,7 +188,7 @@
               familyId: "B", 
               personalInfo: {
                 bio: "Віталій ...",
-                hobbies: ["рибалка", "ремонт техніки"]
+               
     },
               spouse: {
                 id:15,
@@ -188,7 +198,7 @@
                 photo: "images/Tanya.jpg",
                 personalInfo: {
                   bio: "Таня працює бухгалтером...",
-                  hobbies: ["малювання", "приготування страв"]
+                 
     }
               },
               children: [
@@ -206,7 +216,7 @@
               familyId: "B", 
               personalInfo: {
                 bio: "Володимир переїхав у Либидин до дружини,<br /> працює на насіневому заводі...",
-                hobbies: ["рибалка", "пошук артефактів старовини"]
+           
     },
                spouse: {
                 id:19,
@@ -216,7 +226,7 @@
                 familyId: "B", 
                 personalInfo: {
                     bio: "Інна працює в поліціі...",
-                    hobbies: ["ловити злодіїв", "збирати малину"]}
+                  }
                    
                 
                },
@@ -234,17 +244,17 @@
               familyId: "B", 
               personalInfo: {
                 bio: "Вікторія вийшла заміж і переїхала в Буринь, працює на молокозаводі...",
-                hobbies: ["домогосподарство"]
+        
               },
               spouse: {
                 id:22,
                 name: "Олександр",
                 secondName: "Лишенко",
-                birth: 1995,
-                photo: "https://i.pravatar.cc/60?u=13",
+                birth: 1991,
+                photo: "images/Sashko.jpg",
                 personalInfo: {
                   bio: "Працює ветеринаром...",
-                  hobbies: ["автомобілі"]}
+                  }
               },
               children: [
                 { id:23, name: "Іван", secondName: "Лишенко", gender: "male", birth: 2015, photo: "images/Ivan.jpg" }
@@ -297,18 +307,14 @@ function createCard(person) {
       body.innerHTML = `
         <h2>${person.name} ${person.secondName || ""}</h2>
         <img src="${person.photo}" alt="${person.name}" /><br/>
-        <p><strong>Рік народження:</strong> ${person.birth}</p>
-        ${person.gender ? `<p><strong>Стать:</strong> ${person.gender}</p>` : ""}
+        <p><strong> ${person.birth}</strong></p>
         ${person.personalInfo?.bio ? `<p><strong>Про себе:</strong> ${person.personalInfo.bio}</p>` : ""}
-        ${person.personalInfo?.hobbies?.length ? `<p><strong>Хобі:</strong> ${person.personalInfo.hobbies.join(", ")}</p>` : ""}
         ${person.personalInfo?.notes ? `<p><strong>Примітки:</strong> ${person.personalInfo.notes}</p>` : ""}
 
          <h2>${person.spouse.name} ${person.spouse.secondName || ""}</h2>
         <img src="${person.spouse.photo}" alt="${person.spouse.name}" /><br/>
-        <p><strong>Рік народження:</strong> ${person.spouse.birth}</p>
-        ${person.spouse.gender ? `<p><strong>Стать:</strong> ${person.spouse.gender}</p>` : ""}
+        <p><strong></strong> ${person.spouse.birth}</p>
         ${person.spouse.personalInfo?.bio ? `<p><strong>Про себе:</strong> ${person.spouse.personalInfo.bio}</p>` : ""}
-        ${person.spouse.personalInfo?.hobbies?.length ? `<p><strong>Хобі:</strong> ${person.spouse.personalInfo.hobbies.join(", ")}</p>` : ""}
         ${person.spouse.personalInfo?.notes ? `<p><strong>Примітки:</strong> ${person.spouse.personalInfo.notes}</p>` : ""}
       `;
       document.getElementById("modal").style.display = "block";
