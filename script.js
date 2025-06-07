@@ -60,7 +60,7 @@
   children: [
     {
       id:5,
-      name: "Ліда",
+      name: "Лідія",
       secondName: "Антоненко",
       birth: 1938,
       photo: "images/Li.jpg",
@@ -231,7 +231,7 @@
                 
                },
                children: [
-                 { id:20, name: "Вікторія", secondName: "Шеремет", gender: "female", birth: 2011, photo: "https://i.pravatar.cc/60?u=11" }
+                 { id:20, name: "Вікторія", secondName: "Шеремет", gender: "female", birth: 2011, photo: "images/Viktoriya.jpg" }
                ]
              },
              {
